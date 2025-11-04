@@ -25,7 +25,7 @@ DEFAULT_SOUND_PATH = ASSETS_DIR / "audio" / "alerta.wav"
 # Basic configuration
 RTSP_URL = os.getenv(
     "RTSP_URL",
-    "rtsp://admin:hik12345@192.168.100.200:554/Streaming/Channels/701",
+    "rtsp://veasas:hjasbdhjas@192.168.100.200:554/Streaming/Channels/701",
 )
 CONF_THRES = float(os.getenv("CONF_THRES", "0.6"))
 HEADLESS = os.getenv("HEADLESS", "0") == "1"
