@@ -4,7 +4,7 @@ from typing import Any, Iterable, List
 
 from cloud import TuyaAPIError, TuyaClient
 
-DEVICE_ID = os.getenv("TUYA_DEVICE_ID", "eb474eb19fe37d50aew661")
+DEVICE_ID = os.getenv("TUYA_DEVICE_ID", "jsbdjasda,")
 
 _client = TuyaClient()
 
