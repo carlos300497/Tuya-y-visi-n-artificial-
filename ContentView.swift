@@ -512,8 +512,8 @@ final class LocationManager: NSObject, ObservableObject, CLLocationManagerDelega
     @Published var tcpPort: Int = 8883
     @Published var tcpUseTLS: Bool = true
     @Published var mqttClientID: String = "Alarma-iOS-\(UUID().uuidString)"
-    @Published var mqttUsername: String = "ee1dfff8-c7f3-4d95-8360-8b91b626e33b"
-    @Published var mqttPassword: String = "17411981661120418230a8af985ba49bbec7db35d3efa507f8eb1c06e5315d1ae0bdf04f0450b5bddf7a750dee68199ed36"
+    @Published var mqttUsername: String = "nbasmbdasbdjhqwDJH"  // AJUSTA NOMBRE DE USUARIO MQTT
+    @Published var mqttPassword: String = "HBASDHJSAJDBASBDMSABDJQWDJKQWB" // Ajusta clave mqtt
     @Published var mqttConnected: Bool = false
     @Published var mqttLastMessage: String?
     @Published var mqttRemoteStates: [String: Bool] = [:]
