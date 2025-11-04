@@ -16,9 +16,9 @@ TCP_HOST = "broker.qubitro.com"
 TCP_PORT = 8883
 TCP_USE_TLS = True
 MQTT_CLIENT_ID = "Alarma-python-listener"
-MQTT_USERNAME = "ee1dfff8-c7f3-4d95-8360-8b91b626e33b"
+MQTT_USERNAME = "hhsdjahsgdjaadj"
 MQTT_PASSWORD = (
-    "17411981661120418230a8af985ba49bbec7db35d3efa507f8eb1c06e5315d1ae0bdf04f0450b5bddf7a750dee68199ed36"
+    "ndmnasbmdasbdjkwhk7512761t81jkhdskdjhqi"
 )
 
 
