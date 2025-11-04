@@ -9,8 +9,8 @@ from typing import Any, Dict, Iterable, Optional
 import requests
 
 # Configuración base; permite sobrescribir con variables de entorno si es necesario.
-ACCESS_ID = os.getenv("TUYA_ACCESS_ID", "cjwufwysahujv3vscyw4")
-ACCESS_SECRET = os.getenv("TUYA_ACCESS_SECRET", "92936eb2c9904e1e865fab9e05bd3085")
+ACCESS_ID = os.getenv("TUYA_ACCESS_ID", "dgfdghfhjj")              ### access id tuya 
+ACCESS_SECRET = os.getenv("TUYA_ACCESS_SECRET", "768528371872")    ### clave secreta tuya 
 ENDPOINT = os.getenv("TUYA_ENDPOINT", "https://openapi.tuyaus.com").rstrip("/")
 
 
