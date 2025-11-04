@@ -518,12 +518,6 @@ final class LocationManager: NSObject, ObservableObject, CLLocationManagerDelega
     @Published var mqttLastMessage: String?
     @Published var mqttRemoteStates: [String: Bool] = [:]
 
-    // MARK: - Tuya
-    @Published var tuyaDeviceID: String = ProcessInfo.processInfo.environment["TUYA_DEVICE_ID"] ?? "eb474eb19fe37d50aew661"
-    @Published var tuyaBackendURLString: String? = nil // e.g., "https://your-backend.example.com"
-    private lazy var tuyaClient = TuyaClientService(deviceID: tuyaDeviceID,
-                                                    backendURL: tuyaBackendURLString.flatMap { URL(string: $0) })
-
     private lazy var mqttTCPClient: SimpleMQTTOverTCP = makeMQTTClient(host: tcpHost,
                                                                        port: UInt16(tcpPort),
                                                                        useTLS: tcpUseTLS)
